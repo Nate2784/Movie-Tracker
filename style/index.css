@@ -133,6 +133,14 @@ button{
         top: 58%;
         left: 13%;
     }
+    @-webkit-keyframes posi {
+        from {left: 20%; opacity: 0.2;}
+        to {left: 13%; opacity: 1;}
+    }
+    @keyframes posi {
+        from {left: 20%; opacity: 0.2;}
+        to {left: 13%;opacity: 1; }
+    }
     .carousel-caption p{
         font-size: x-small;
         width: 80%;
