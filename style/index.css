@@ -15,7 +15,7 @@
     color: var(--span);
 }
 .carousel-item, .carousel{
-    height: 80vh;
+    height: 80dvh;
 }
 .carousel-item img{
     height: inherit;
@@ -58,7 +58,7 @@
 .overlay{
 	position: absolute;
 	width: 100%;
-	height: 80vh;
+	height: 80dvh;
 	background-color: #000;
 	opacity: 0.2;
     z-index: 1;
@@ -127,7 +127,7 @@ button{
         
     }
     .carousel-item, .carousel{
-        height: 60vh;
+        height: 60dvh;
     }
     .carousel-caption{
         top: 58%;
@@ -152,11 +152,7 @@ button{
         border-radius: 10px;
       }
     .card{
-        width: 200px;
-    }
-    .movies-bar img{
-        height: 150px;
-        border-radius: 0 0 20px 0px;
+        width: 250px;
     }
     .card-body h5{
         font-size: medium;
