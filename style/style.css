@@ -23,7 +23,7 @@ span{
     background-color: var(--background-header);
     box-shadow: 3px 3px 10px 1px var(--span);
     border-bottom: var(--span) 1px solid;
-    width: 90%;
+    width: 94%;
     margin: 0 auto;
 }
 .navbar-brand:hover{
