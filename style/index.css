@@ -23,7 +23,7 @@
 .carousel-caption{
     color: var(--span);
     position: absolute;
-    top: 53%;
+    top: 60%;
     left: 10%;
     text-align: justify;
     -webkit-animation-name: posi;
@@ -130,7 +130,7 @@ button{
         height: 60vh;
     }
     .carousel-caption{
-        top: 40%;
+        top: 58%;
         left: 13%;
     }
     .carousel-caption p{
