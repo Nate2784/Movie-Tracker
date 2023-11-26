@@ -1,0 +1,116 @@
+:root{
+    --span:#CAE962;
+    --background-header: #3f4149;
+    --background-body: #ffffff;
+    --link-color: aliceblue;
+    --light-text-color: #FFFFFF;
+    --dark-text-color: #2A2C31;
+}
+/* slide show start */
+.carousel-title{
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 2%;
+    color: var(--span);
+}
+.carousel-item, .carousel{
+    height: 80vh;
+}
+.carousel-item img{
+    height: inherit;
+}
+.carousel-caption{
+    color: var(--span);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: justify;
+    -webkit-animation-name: posi;
+  	-webkit-animation-duration: 2s;
+  	animation-name: posi;
+  	animation-duration: 2s;
+    z-index: 1;
+}
+.carousel-caption h5{
+    color: var(--span);
+}
+.carousel-caption p{
+    color: var(--light-text-color);
+    width: 40%;
+    line-height: 1.2em;
+}
+.carousel-control-next, .carousel-control-prev{
+    color: var(--span);
+    opacity: 1;
+    font-size: xx-large;
+}
+.carousel-control-next{
+    padding-left: 8%;
+}
+.carousel-control-prev{
+    padding-right: 8%;
+}
+.carousel-item img{
+	transform: scale(1, 1);
+	-webkit-animation-name: zoomin;
+  	-webkit-animation-duration: 38s;
+  	animation-name: zoomin;
+  	animation-duration: 38s;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 90dvh;
+	background-color: #000;
+	opacity: 0.2;
+    z-index: 1;
+}
+button{
+	border: none;
+	background-color: var(--span);
+	padding: 8px;
+	margin-top: 10px;
+	color: var(--light-text-color);
+	border-radius: 50px;
+	font-size: medium;
+	cursor: pointer;
+}
+@-webkit-keyframes zoomin {
+    from {transform: scale(1, 1);}
+    to {transform: scale(1.5, 1.5);}
+  }
+  
+  @keyframes zoomin {
+    from {transform: scale(1, 1);}
+    to {transform: scale(1.5, 1.5);}
+  }
+  @-webkit-keyframes posi {
+      from {left: 20%; opacity: 0.2;}
+      to {left: 10%; opacity: 1;}
+  }
+  @keyframes posi {
+      from {left: 20%; opacity: 0.2;}
+      to {left: 10%;opacity: 1; }
+  }
+  /* end of slide show */
+.movies-bar{
+    height: auto;
+    width: 100%;
+    background-color: #ebedf5;
+    border-radius: 10px;
+  }
+.card{
+    width: 250px;
+    height: auto;
+    box-shadow: 2px 1px 12px black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.movies-bar img{
+    height: 150px;
+    border-radius: 0 0 20px 0px;
+}
+.card-body{
+    line-height: 1.2em;
+}
