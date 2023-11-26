@@ -23,7 +23,7 @@
 .carousel-caption{
     color: var(--span);
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 10%;
     text-align: justify;
     -webkit-animation-name: posi;
@@ -32,13 +32,10 @@
   	animation-duration: 2s;
     z-index: 1;
 }
-.carousel-caption h5{
-    color: var(--span);
-}
 .carousel-caption p{
     color: var(--light-text-color);
-    width: 40%;
-    line-height: 1.2em;
+    width: 60%;
+    line-height: 1em;
 }
 .carousel-control-next, .carousel-control-prev{
     color: var(--span);
@@ -46,10 +43,10 @@
     font-size: xx-large;
 }
 .carousel-control-next{
-    padding-left: 8%;
+    padding-left: 7%;
 }
 .carousel-control-prev{
-    padding-right: 8%;
+    padding-right: 7%;
 }
 .carousel-item img{
 	transform: scale(1, 1);
@@ -61,7 +58,7 @@
 .overlay{
 	position: absolute;
 	width: 100%;
-	height: 90dvh;
+	height: 80dvh;
 	background-color: #000;
 	opacity: 0.2;
     z-index: 1;
@@ -70,10 +67,9 @@ button{
 	border: none;
 	background-color: var(--span);
 	padding: 8px;
-	margin-top: 10px;
 	color: var(--light-text-color);
 	border-radius: 50px;
-	font-size: medium;
+	font-size: smaller;
 	cursor: pointer;
 }
 @-webkit-keyframes zoomin {
@@ -113,4 +109,53 @@ button{
 }
 .card-body{
     line-height: 1.2em;
+}
+@media only screen and (max-width: 650px){
+    .carousel-title{
+        font-size: x-small;
+    }
+    button{
+        padding: 3px;
+        font-size: x-small;
+    }
+    .overlay{
+        height: 60dvh;
+    }
+    .carousel-caption h3{
+        font-size: medium;
+        margin: 3px 0;
+        
+    }
+    .carousel-item, .carousel{
+        height: 60vh;
+    }
+    .carousel-caption{
+        top: 40%;
+        left: 13%;
+    }
+    .carousel-caption p{
+        font-size: x-small;
+        width: 80%;
+    }
+    .movies-bar{
+        height: auto;
+        width: 100%;
+        background-color: #ebedf5;
+        border-radius: 10px;
+      }
+    .card{
+        width: 200px;
+    }
+    .movies-bar img{
+        height: 150px;
+        border-radius: 0 0 20px 0px;
+    }
+    .card-body h5{
+        font-size: medium;
+    }
+    .carousel-caption, .card-body p{
+        margin: 7px 0;
+        font-size: small;
+        line-height: 1em;
+    }
 }
