@@ -1,21 +1,3 @@
-:root{
-    /* --span:#1f928e;
-    --background-header: #113f46;
-    --background-body: rgb(22, 48, 56);
-    --link-color: rgb(225, 225, 225);
-    --light-text-color: #ffffff;
-    --dark-text-color: #ffffff;
-    --card-background: var(--background-header);
-    --movie-bar-background:#225961; */
-    --span:rgb(57, 172, 189);
-    --background-header: #06444c;
-    --background-body: rgb(15, 55, 68);
-    --link-color: rgb(225, 225, 225);
-    --light-text-color: #e5e5e5;
-    --dark-text-color: #e5e5e5;
-    --card-background: var(--background-header);
-    --movie-bar-background:#225961;
-}
 /* slide show start */
 .carousel-title{
     position: absolute;
