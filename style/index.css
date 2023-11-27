@@ -1,11 +1,20 @@
 :root{
-    --span:#CAE962;
-    --background-header: #3f4149;
-    --background-body: #FFFFFF;
-    --link-color: aliceblue;
-    --light-text-color: #FFFFFF;
-    --dark-text-color: #2A2C31;
-    --card-background: transparent;
+    /* --span:#1f928e;
+    --background-header: #113f46;
+    --background-body: rgb(22, 48, 56);
+    --link-color: rgb(225, 225, 225);
+    --light-text-color: #ffffff;
+    --dark-text-color: #ffffff;
+    --card-background: var(--background-header);
+    --movie-bar-background:#225961; */
+    --span:rgb(57, 172, 189);
+    --background-header: #06444c;
+    --background-body: rgb(15, 55, 68);
+    --link-color: rgb(225, 225, 225);
+    --light-text-color: #ffffff;
+    --dark-text-color: #ffffff;
+    --card-background: var(--background-header);
+    --movie-bar-background:#225961;
 }
 /* slide show start */
 .carousel-title{
@@ -61,7 +70,7 @@
 	width: 100%;
 	height: 80dvh;
 	background-color: #000;
-	opacity: 0.4;
+	opacity: 0.5;
     z-index: 1;
 }
 @-webkit-keyframes zoomin {
@@ -85,7 +94,7 @@
 .movies-bar{
     height: auto;
     width: 100%;
-    background-color: #ebedf5;
+    background-color: var(--movie-bar-background);
     border-radius: 10px;
   }
 .card{
@@ -93,6 +102,7 @@
     box-shadow: 2px 1px 12px black;
     border-radius: 10px;
     overflow: hidden;
+    background-color: var(--card-background);
 }
 .movies-bar img{
     height: 180px;
@@ -107,7 +117,7 @@
 .btn-outline-primary{
     color: var(--span);
     border-color:var(--span);
-    background-color:var(--background-body);
+    background-color:var(--light-text-color);
     padding: 5px 10px;
     font-weight: 400;
 }
@@ -136,7 +146,7 @@
         height: 60dvh;
     }
     .carousel-caption{
-        top: 58%;
+        top: 55%;
         left: 13%;
     }
     @-webkit-keyframes posi {
@@ -151,13 +161,7 @@
         font-size: x-small;
         width: 80%;
     }
-    .movies-bar{
-        height: auto;
-        width: 100%;
-        background-color: #ebedf5;
-        border-radius: 10px;
-      }
-      .movies-bar img{
+    .movies-bar img{
           height: 150px;
       }
     .card{
@@ -174,5 +178,17 @@
     }
     .carousel-control-next, .carousel-control-prev{
         font-size: large;
+    }
+}
+@media only screen and (max-height: 576px){
+    .carousel-caption{
+        top: 35%;
+        left: 13%;
+    }
+}
+@media only screen and (max-height: 356px){
+    .carousel-caption{
+        top: 23%;
+        left: 13%;
     }
 }

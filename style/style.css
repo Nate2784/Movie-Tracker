@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 :root{
+    /* --span:rgb(57, 172, 189);
+    --background-header: #023840;
+    --background-body: rgb(22, 48, 56);
+    --link-color: rgb(225, 225, 225);
+    --light-text-color: #ffffff;
+    --dark-text-color: #ffffff;
+    --card-background: var(--background-header);
+    --movie-bar-background:#225961; */
+
     --span:#CAE962;
     --background-header: #3f4149;
     --background-body: #ffffff;
@@ -22,10 +31,10 @@ span{
 .navbar{
     background-color: var(--background-header);
     box-shadow: 3px 3px 10px 1px var(--span);
-    border-bottom: var(--span) 1px solid;
-    width: 94%;
+    border-bottom: var(--span) 3px solid;
+    width: 92%;
     margin: 0 auto;
-    border-radius: 0 0 0 25px;
+    border-radius: 0 0 0px 25px;
 }
 .navbar-brand:hover{
     color: var(--span);
@@ -56,7 +65,7 @@ footer{
 }
 footer p{
     margin-bottom: -1rem;
-    padding: 20px;
+    padding: 16px;
     color: var(--light-text-color);
     text-align: center;
     font-size: small;
