@@ -25,6 +25,7 @@ span{
     border-bottom: var(--span) 1px solid;
     width: 94%;
     margin: 0 auto;
+    border-radius: 0 0 0 25px;
 }
 .navbar-brand:hover{
     color: var(--span);
@@ -54,6 +55,7 @@ footer{
     height: auto;
 }
 footer p{
+    margin-bottom: -1rem;
     padding: 20px;
     color: var(--light-text-color);
     text-align: center;
