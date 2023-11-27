@@ -31,11 +31,12 @@
     height: inherit;
 }
 .carousel-caption{
+    width: 35%;
     color: var(--span);
     position: absolute;
-    top: 60%;
-    left: 10%;
-    text-align: justify;
+    bottom:5%;
+    left: 9%;
+    text-align: left;
     -webkit-animation-name: posi;
   	-webkit-animation-duration: 2s;
   	animation-name: posi;
@@ -44,7 +45,6 @@
 }
 .carousel-caption p{
     color: var(--light-text-color);
-    width: 60%;
     line-height: 1em;
 }
 .carousel-control-next, .carousel-control-prev{
@@ -126,18 +126,14 @@
     to {transform: scale(1.5, 1.5);}
 }
 @-webkit-keyframes posi {
-    from {left: 20%; opacity: 0.2;}
-    to {left: 10%; opacity: 1;}
+    from {left: 30%; opacity: 0.2;}
+    to {left: 9%; opacity: 1;}
 }
 @keyframes posi {
-    from {left: 20%; opacity: 0.2;}
-    to {left: 10%;opacity: 1; }
+    from {left: 30%; opacity: 0.2;}
+    to {left: 9%;opacity: 1; }
 }
 @media only screen and (max-width: 650px){
-    .movies-bar::-webkit-scrollbar{
-        width: 1;
-        height: 1;
-    }
     .carousel-title{
         font-size: small;
     }
@@ -159,14 +155,6 @@
         top: 55%;
         left: 13%;
     }
-    @-webkit-keyframes posi {
-        from {left: 20%; opacity: 0.2;}
-        to {left: 13%; opacity: 1;}
-    }
-    @keyframes posi {
-        from {left: 20%; opacity: 0.2;}
-        to {left: 13%;opacity: 1; }
-    }
     .carousel-caption p{
         font-size: x-small;
         width: 80%;
@@ -183,22 +171,10 @@
 }
 @media only screen and (max-width: 400px){
     .carousel-caption{
-        top: 45%;
-        left: 13%;
+        bottom:3%;
+        left: 9%;
     }
     .carousel-control-next, .carousel-control-prev{
         font-size: large;
-    }
-}
-@media only screen and (max-height: 576px){
-    .carousel-caption{
-        top: 35%;
-        left: 13%;
-    }
-}
-@media only screen and (max-height: 356px){
-    .carousel-caption{
-        top: 23%;
-        left: 13%;
     }
 }
