@@ -82,6 +82,8 @@
     width: 100%;
     background-color: var(--movie-bar-background);
     border-radius: 10px;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
   }
 .card{
     width: 300px;
@@ -89,13 +91,21 @@
     border-radius: 10px;
     overflow: hidden;
     background-color: var(--card-background);
+    scroll-snap-align: start;
 }
 .movies-bar img{
     height: 180px;
 }
 .movies-bar::-webkit-scrollbar{
-    width: 0;
-    height: 0;
+    height: .4vh;
+}
+.movies-bar::-webkit-scrollbar-track{
+    background-color: var(--light-text-color);
+}
+.movies-bar::-webkit-scrollbar-thumb{
+    background-color: var(--background-header);
+    border-radius: 50px;
+    opacity: .2;
 }
 .card-body{
     line-height: 1.2em;
@@ -151,13 +161,8 @@
     .carousel-item, .carousel{
         height: 60dvh;
     }
-    .carousel-caption{
-        top: 55%;
-        left: 13%;
-    }
     .carousel-caption p{
         font-size: x-small;
-        width: 80%;
     }
     .movies-bar img{
           height: 150px;
