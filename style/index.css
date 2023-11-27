@@ -12,7 +12,7 @@
     --background-body: rgb(15, 55, 68);
     --link-color: rgb(225, 225, 225);
     --light-text-color: #e5e5e5;
-    --dark-text-color: #ffffff;
+    --dark-text-color: #e5e5e5;
     --card-background: var(--background-header);
     --movie-bar-background:#225961;
 }
@@ -85,7 +85,7 @@
   }
 .card{
     width: 300px;
-    box-shadow: 2px 1px 12px black;
+    box-shadow: 1px 1px 8px black;
     border-radius: 10px;
     overflow: hidden;
     background-color: var(--card-background);
@@ -112,7 +112,7 @@
     font-weight: 400;
 }
 .btn-outline-primary:hover{
-    color: var(--dark-text-color);
+    color: var(--span);
     border-color: var(--dark-text-color);
     background-color: var(--background-body);
 }
