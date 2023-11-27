@@ -11,7 +11,7 @@
     --background-header: #06444c;
     --background-body: rgb(15, 55, 68);
     --link-color: rgb(225, 225, 225);
-    --light-text-color: #ffffff;
+    --light-text-color: #e5e5e5;
     --dark-text-color: #ffffff;
     --card-background: var(--background-header);
     --movie-bar-background:#225961;
@@ -53,10 +53,10 @@
     font-size: xx-large;
 }
 .carousel-control-next{
-    padding-left: 7%;
+    padding-left: 6%;
 }
 .carousel-control-prev{
-    padding-right: 7%;
+    padding-right: 6%;
 }
 .carousel-item img{
 	transform: scale(1, 1);
@@ -73,22 +73,8 @@
 	opacity: 0.5;
     z-index: 1;
 }
-@-webkit-keyframes zoomin {
-    from {transform: scale(1, 1);}
-    to {transform: scale(1.5, 1.5);}
-  }
-  
-  @keyframes zoomin {
-    from {transform: scale(1, 1);}
-    to {transform: scale(1.5, 1.5);}
-  }
-  @-webkit-keyframes posi {
-      from {left: 20%; opacity: 0.2;}
-      to {left: 10%; opacity: 1;}
-  }
-  @keyframes posi {
-      from {left: 20%; opacity: 0.2;}
-      to {left: 10%;opacity: 1; }
+.carousel ol{
+    list-style: none;
   }
   /* end of slide show */
 .movies-bar{
@@ -106,6 +92,10 @@
 }
 .movies-bar img{
     height: 180px;
+}
+.movies-bar::-webkit-scrollbar{
+    width: 0;
+    height: 0;
 }
 .card-body{
     line-height: 1.2em;
@@ -126,13 +116,33 @@
     border-color: var(--dark-text-color);
     background-color: var(--background-body);
 }
+@-webkit-keyframes zoomin {
+    from {transform: scale(1, 1);}
+    to {transform: scale(1.5, 1.5);}
+  }
+  
+@keyframes zoomin {
+    from {transform: scale(1, 1);}
+    to {transform: scale(1.5, 1.5);}
+}
+@-webkit-keyframes posi {
+    from {left: 20%; opacity: 0.2;}
+    to {left: 10%; opacity: 1;}
+}
+@keyframes posi {
+    from {left: 20%; opacity: 0.2;}
+    to {left: 10%;opacity: 1; }
+}
 @media only screen and (max-width: 650px){
-    .carousel-title{
-        font-size: x-small;
+    .movies-bar::-webkit-scrollbar{
+        width: 1;
+        height: 1;
     }
-    button{
-        padding: 5px;
-        font-size: xx-small;
+    .carousel-title{
+        font-size: small;
+    }
+    .btn{
+        font-size: 0.8rem;
     }
     .overlay{
         height: 60dvh;
