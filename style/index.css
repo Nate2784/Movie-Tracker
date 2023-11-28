@@ -64,9 +64,11 @@
     width: 100%;
     background-color: var(--movie-bar-background);
     border-radius: 10px;
+}
+.movies-slider{
     overflow-x: hidden;
     scroll-snap-type: x mandatory;
-  }
+}
 .card{
     width: 300px;
     box-shadow: 1px 1px 8px black;
@@ -78,13 +80,13 @@
 .movies-bar img{
     height: 180px;
 }
-.movies-bar::-webkit-scrollbar{
+.movies-slider::-webkit-scrollbar{
     height: .4vh;
 }
-.movies-bar::-webkit-scrollbar-track{
+.movies-slider::-webkit-scrollbar-track{
     background-color: var(--background-body);
 }
-.movies-bar::-webkit-scrollbar-thumb{
+.movies-slider::-webkit-scrollbar-thumb{
     background-color: var(--span);
     border-radius: 50px;
     opacity: .2;
