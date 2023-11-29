@@ -24,7 +24,7 @@
     --light-text-color: #FFFFFF;
     --dark-text-color: #2A2C31;
     --card-background: var(--background-header);
-    --movie-bar-background:aliceblue; 
+    --movie-bar-background:rgba(240, 248, 255, 0); 
 }
 
 body{
