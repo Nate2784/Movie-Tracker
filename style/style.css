@@ -7,9 +7,10 @@
     --span:rgb(57, 172, 189);
     --background-header: #06444c;
     --background-body: rgb(15, 55, 68);
+    --secondary-background-body: rgb(254, 255, 255);
     --link-color: rgb(225, 225, 225);
     --light-text-color: #e5e5e5;
-    --dark-text-color: #e5e5e5;
+    --dark-text-color: #225961;
     --card-background: var(--background-header);
     --movie-bar-background:#225961;
 /* 
@@ -23,7 +24,7 @@
 
 body{
     background-color: var(--background-body);
-    color: var(--dark-text-color);
+    color: var(--light-text-color);
 }
 span{
     color: var(--span);

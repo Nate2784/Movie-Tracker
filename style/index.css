@@ -81,7 +81,7 @@
     height: 180px;
 }
 .movies-slider::-webkit-scrollbar{
-    height: .4vh;
+    height: .7vh;
 }
 .movies-slider::-webkit-scrollbar-track{
     background-color: var(--background-body);
@@ -96,7 +96,7 @@
     background-color: var(--card-background);
 }
 .card-body h5{
-    color: var(--dark-text-color);
+    color: var(--light-text-color);
 }
 .btn-outline-primary{
     color: var(--span);
