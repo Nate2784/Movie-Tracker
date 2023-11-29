@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 :root{
+    
     --span:rgb(57, 172, 189);
     --background-header: #06444c;
     --background-body: rgb(15, 55, 68);
@@ -12,14 +13,18 @@
     --light-text-color: #e5e5e5;
     --dark-text-color: #225961;
     --card-background: var(--background-header);
-    --movie-bar-background:#225961;
-/* 
+    --movie-bar-background:#225961; 
+   
+
     --span:#CAE962;
     --background-header: #3f4149;
-    --background-body: #ffffff;
+    --background-body: #36373b;
+    --secondary-background-body: rgb(254, 255, 255);
     --link-color: aliceblue;
     --light-text-color: #FFFFFF;
-    --dark-text-color: #2A2C31; */
+    --dark-text-color: #2A2C31;
+    --card-background: rgba(59, 61, 56, 0.514);
+    --movie-bar-background:aliceblue; 
 }
 
 body{
