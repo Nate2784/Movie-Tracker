@@ -23,7 +23,7 @@
     --link-color: aliceblue;
     --light-text-color: #FFFFFF;
     --dark-text-color: #2A2C31;
-    --card-background: rgba(59, 61, 56, 0.514);
+    --card-background: var(--background-header);
     --movie-bar-background:aliceblue; 
 }
 
