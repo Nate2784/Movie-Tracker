@@ -99,13 +99,13 @@
     color: var(--light-text-color);
 }
 .btn-outline-primary{
-    color: var(--light-text-color);
+    color: var(--dark-text-color);
     border-color:var(--light-text-color);
     background-color:var(--span);
     font-weight: 600;
 }
 .btn-outline-primary:hover{
-    color: var(--span);
+    color: var(--light-text-color);
     border-color: var(--dark-text-color);
     background-color: var(--background-body);
 }
