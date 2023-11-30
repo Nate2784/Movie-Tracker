@@ -4,25 +4,13 @@
     box-sizing: border-box;
 }
 :root{
-/*     
-    --span:rgb(57, 172, 189);
-    --background-header: #06444c;
-    --background-body: rgb(15, 55, 68);
-    --secondary-background-body: rgb(254, 255, 255);
-    --link-color: rgb(225, 225, 225);
-    --light-text-color: #e5e5e5;
-    --dark-text-color: #225961;
-    --card-background: var(--background-header);
-    --movie-bar-background:#225961;  */
-   
-
     --span:#CAE962;
-    --background-header: #3f4149;
-    --background-body: #36373b;
+    --background-header: #2b2c2d;
+    --background-body: #2a2a2c;
     --secondary-background-body: rgb(254, 255, 255);
     --link-color: aliceblue;
     --light-text-color: #FFFFFF;
-    --dark-text-color: #2A2C31;
+    --dark-text-color: #303134;
     --card-background: var(--background-header);
     --movie-bar-background:rgba(240, 248, 255, 0); 
 }
