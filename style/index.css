@@ -99,11 +99,10 @@
     color: var(--light-text-color);
 }
 .btn-outline-primary{
-    color: var(--span);
-    border-color:var(--span);
-    background-color:var(--light-text-color);
-    padding: 5px 10px;
-    font-weight: 400;
+    color: var(--light-text-color);
+    border-color:var(--light-text-color);
+    background-color:var(--span);
+    font-weight: 600;
 }
 .btn-outline-primary:hover{
     color: var(--span);
