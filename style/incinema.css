@@ -20,7 +20,7 @@ body{
     color: var(--dark-text-color);
     border-color:var(--light-text-color);
     background-color:var(--span);
-    font-weight: 600;
+    font-weight: 400;
 }
 .btn-outline-primary:hover{
     color: var(--light-text-color);
