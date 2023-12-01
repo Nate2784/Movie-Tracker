@@ -18,6 +18,7 @@
 body{
     background-color: var(--background-body);
     color: var(--light-text-color);
+    scroll-behavior: smooth;
 }
 span{
     color: var(--span);
