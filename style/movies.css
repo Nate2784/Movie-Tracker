@@ -10,6 +10,7 @@
     box-shadow: 1px 1px 8px black;
     border-radius: 10px;
     background-color: var(--card-background);
+    overflow: hidden;
     margin: 0 auto;
 }
 .card img{
