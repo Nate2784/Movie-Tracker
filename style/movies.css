@@ -1,0 +1,27 @@
+.dropdown button{
+    border: none;
+    background-color: transparent;
+}
+.card{
+    box-shadow: 1px 1px 8px black;
+    border-radius: 10px;
+    background-color: var(--card-background);
+}
+.card-body{
+    line-height: 1.2em;
+    background-color: var(--card-background);
+}
+.card-body h5{
+    color: var(--light-text-color);
+}
+.btn-outline-primary{
+    color: var(--dark-text-color);
+    border-color:var(--light-text-color);
+    background-color:var(--span);
+    font-weight: 600;
+}
+.btn-outline-primary:hover{
+    color: var(--light-text-color);
+    border-color: var(--dark-text-color);
+    background-color: var(--background-body);
+}
