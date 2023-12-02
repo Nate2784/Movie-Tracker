@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Prata&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -30,6 +31,9 @@ span{
     width: 92%;
     margin: 0 auto;
     border-radius: 0 0 0px 25px;
+}
+.navbar-brand{
+    font-family: 'prata', serif;
 }
 .navbar-brand:hover{
     color: var(--span);
